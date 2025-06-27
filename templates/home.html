@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="icon" type="image/x-icon" href="static/img/sentiment-fevicon.png">
+
+    <link rel="stylesheet" href="../static/css/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1 class="heading">Sentiment Analysis</h1>
+    </header>
+    
+    <main>
+        
+        <form method="post">
+            <Textarea name="Sentiment" class="Textarea" rows="10"></Textarea>
+            <button type="submit" class="checkbtn">Check</button>
+            <div class="moodmeter">
+                <h1 id="message">{{message}}</h1>
+            </div>
+            
+        </form>
+        <!-- <h1>{{message}}</h1> -->
+    </main>
+    <footer style="width: 100%; background-color: #000;  padding: 5vh; position: absolute; bottom: 0px;">
+        <div class="copyright" style="text-align: center; width: 100%;">
+            Copyright © 2024 Made By  <a href="https://www.linkedin.com/in/kaushal-joshi0212/" style="color: #fff; font-style: none; text-decoration: none; font-weight: 700;">Kaushal Joshi</a>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
